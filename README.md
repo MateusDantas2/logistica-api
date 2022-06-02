@@ -70,5 +70,5 @@ Pré-requisitos: Postman
 
 Feito com ❤️ por Mateus Dantas 👋🏽 Entre em contato!
 
-[![Twitter Badge](https://img.shields.io/badge/-@MateusDantasMa1-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/MateusDantasMa1)](https://twitter.com/MateusDantasMa1) [![Linkedin Badge](https://img.shields.io/badge/-Mateus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mateus-dantas-marques/)](linkedin.com/in/mateus-dantas-marques/) 
+[![Twitter Badge](https://img.shields.io/badge/-@MateusDantasMa1-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/MateusDantasMa1)](https://twitter.com/MateusDantasMa1) [![Linkedin Badge](https://img.shields.io/badge/-Mateus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mateus-dantas-marques/)](https://www.linkedin.com/in/mateus-dantas-marques/) 
 [![Gmail Badge](https://img.shields.io/badge/-mateusdantas.dev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mateusdantas.dev@gmail.com)](mailto:mateusdantas.dev@gmail.com)
