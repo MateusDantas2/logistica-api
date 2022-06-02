@@ -18,6 +18,7 @@ Logística é uma API REST desenvolvida na qual os clientes podem solicitar um s
 - Spring Security
 - Maven
 - Jakarta Bean Validation
+- Lombok
 
 ### 👉 Arquitetura:
 - REST
@@ -25,7 +26,7 @@ Logística é uma API REST desenvolvida na qual os clientes podem solicitar um s
 ### 👉 Pré-requisitos:
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [JDK 11 ou Superior](https://jdk.java.net/18/), [MySQL](https://dev.mysql.com/downloads/mysql/). 
+[Git](https://git-scm.com), [JDK 11 ou Superior](https://jdk.java.net/18/), [MySQL](https://dev.mysql.com/downloads/mysql/) e o [Lombok](https://projectlombok.org/download). 
 Além disto é bom ter um editor para trabalhar com o código como [Spring Tools](https://spring.io/tools) ou [Intellij](jetbrains.com/idea/download/#section=windows).
 
 ```bash
