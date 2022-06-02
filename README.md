@@ -62,10 +62,10 @@ Pré-requisitos: Postman
 ### Autor
 ---
 
-<a href="author/mateus">
+<a href="https://github.com/MateusDantas2">
  <img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/86339839/171701355-709f003e-0bbe-4203-912c-70f6cb9eade6.jpeg" width="100px;" alt=""/>
  <br />
- <sub><b>Mateus Dantas</b></sub></a> <a href="author/mateus" title="Api">🚀</a>
+ <sub><b>Mateus Dantas</b></sub></a> <a href="https://github.com/MateusDantas2" title="Rocketseat">🚀</a>
 
 
 Feito com ❤️ por Mateus Dantas 👋🏽 Entre em contato!
