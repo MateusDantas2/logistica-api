@@ -73,7 +73,25 @@ public class Entrega {
 		
 		return ocorrencia;
 	}
-
+	
+	public void cancelar() {
+		
+		if (naoPodeSerCancelada()) {
+			throw new NegocioException("Entrega não pode ser cancelada!");
+		}
+		
+		setStatus(StatusEntrega.CANCELADA);
+		setDataFinalizacao(OffsetDateTime.now());
+	}
+	
+	public boolean podeSerCancelada() {
+		return StatusEntrega.PENDENTE.equals(getStatus());
+	}
+	
+	public boolean naoPodeSerCancelada() {
+		return !podeSerCancelada();
+	}
+	
 	public void finalizar() {
 		if (naoPodeSerFinalizada()) {
 			throw new NegocioException("Entrega não pode ser finalizada!");

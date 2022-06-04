@@ -20,6 +20,7 @@ import com.algaworks.logistica.api.model.EntregaModel;
 import com.algaworks.logistica.api.model.input.EntregaInput;
 import com.algaworks.logistica.domain.model.Entrega;
 import com.algaworks.logistica.domain.repository.EntregaRepository;
+import com.algaworks.logistica.domain.service.CancelamentoEntregaService;
 import com.algaworks.logistica.domain.service.FinalizacaoEntregaService;
 import com.algaworks.logistica.domain.service.SolicitacaoEntregaService;
 
@@ -34,6 +35,7 @@ public class EntregaController {
 	private SolicitacaoEntregaService solicitacaoEntregaService;
 	private EntregaMapper entregaMapper;
 	private FinalizacaoEntregaService finalizacaoEntregaService;
+	private CancelamentoEntregaService cancelamentoEntregaService;
 
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
@@ -60,5 +62,11 @@ public class EntregaController {
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public void finalizar(@PathVariable Long entregaId) {
 		finalizacaoEntregaService.finalizar(entregaId);
+	}
+	
+	@PutMapping("/{entregaId}/cancelamento")
+	@ResponseStatus(HttpStatus.NO_CONTENT)
+	public void cancelar(@PathVariable Long entregaId) {
+		cancelamentoEntregaService.cancelar(entregaId);
 	}
 }
