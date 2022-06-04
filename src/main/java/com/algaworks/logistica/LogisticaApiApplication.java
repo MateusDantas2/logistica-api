@@ -1,5 +1,10 @@
 package com.algaworks.logistica;
 
+/**
+ * @author MateusDantas
+ * @version 1.0
+ *
+ */
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
