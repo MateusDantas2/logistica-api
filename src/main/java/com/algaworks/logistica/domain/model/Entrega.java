@@ -76,7 +76,7 @@ public class Entrega {
 	
 	public void cancelar() {
 		
-		if (naoPodeSerCancelada()) {
+		if (!canBeTerminatedAndCanceled()) {
 			throw new NegocioException("Entrega não pode ser cancelada!");
 		}
 		
@@ -84,16 +84,8 @@ public class Entrega {
 		setDataFinalizacao(OffsetDateTime.now());
 	}
 	
-	public boolean podeSerCancelada() {
-		return StatusEntrega.PENDENTE.equals(getStatus());
-	}
-	
-	public boolean naoPodeSerCancelada() {
-		return !podeSerCancelada();
-	}
-	
 	public void finalizar() {
-		if (naoPodeSerFinalizada()) {
+		if (!canBeTerminatedAndCanceled()) {
 			throw new NegocioException("Entrega não pode ser finalizada!");
 		}
 		
@@ -101,11 +93,7 @@ public class Entrega {
 		setDataFinalizacao(OffsetDateTime.now());
 	}
 	
-	public boolean podeSerFinalizada() {
+	public boolean canBeTerminatedAndCanceled() {
 		return StatusEntrega.PENDENTE.equals(getStatus());
-	}
-	
-	public boolean naoPodeSerFinalizada() {
-		return !podeSerFinalizada();
 	}
 }
