@@ -43,12 +43,7 @@ cd logistica-api
 java -jar log-api-0.0.1-SNAPSHOT.jar
 ```
 ### 👉 Manual das requisições da API
-Pré-requisitos: Postman
-
-
-<h4 align="center"> 
-	🚧 🚀 Em construção...  🚧
-</h4>
+Pré-requisitos: [Postman](https://www.postman.com/downloads/)
 
 ### 👉 Features
 
@@ -58,7 +53,7 @@ Pré-requisitos: Postman
 - [x] Cadastro de Destinatário
 - [x] Status PENDENTE
 - [x] Status FINALIZADA
-- [ ] Status CANCELADA 
+- [x] Status CANCELADA 
 
 ### Autor
 ---
