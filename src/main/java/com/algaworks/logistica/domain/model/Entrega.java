@@ -77,7 +77,7 @@ public class Entrega {
 	public void cancelar() {
 		
 		if (!canBeTerminatedAndCanceled()) {
-			throw new NegocioException("Entrega não pode ser cancelada!");
+			throw new NegocioException("À Entrega não pode ser cancelada!");
 		}
 		
 		setStatus(StatusEntrega.CANCELADA);
@@ -86,7 +86,7 @@ public class Entrega {
 	
 	public void finalizar() {
 		if (!canBeTerminatedAndCanceled()) {
-			throw new NegocioException("Entrega não pode ser finalizada!");
+			throw new NegocioException("À Entrega não pode ser finalizada!");
 		}
 		
 		setStatus(StatusEntrega.FINALIZADA);
